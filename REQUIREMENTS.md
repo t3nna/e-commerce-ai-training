@@ -2,6 +2,53 @@
 
 These requirements define the initial scaffold only. Later tasks may change them explicitly. A later requirement supersedes an earlier one only when the task says so.
 
+## Requirements Update
+
+This update replaces **only** the baseline persistence rule. All other baseline requirements still apply, including the cart request contract, the `userId` sourcing rule, and the protection for `src/lib/pricing.ts`.
+
+- Orders are persisted in `data/orders.json`.
+- No database dependency is allowed.
+- Money remains represented as floating-point dollars.
+
+### Order API requirements
+
+- `POST /api/checkout` must append each order to `data/orders.json` using Node.js file-system APIs. If the file does not exist, create it with an empty JSON array before appending. Return the new order ID.
+- `GET /api/orders` returns the current contents of `data/orders.json` as a JSON array.
+- The order routes run in the Node.js runtime, not an Edge runtime.
+- If `data/orders.json` contains malformed JSON, return HTTP 500 with a safe error message. Do not overwrite or silently discard its contents.
+- `userId` on a persisted order is copied from the cart request body's `userId` field. There is still no authentication.
+- `status` is always the string `"completed"`; cancellation, refund, and fulfillment workflows are not part of this course.
+
+Each persisted order uses this shape:
+
+```json
+{
+  "id": "...",
+  "userId": "...",
+  "items": [],
+  "subtotal": 0,
+  "discount": 0,
+  "total": 0,
+  "status": "completed",
+  "createdAt": "ISO-8601"
+}
+```
+
+Each persisted item uses this shape:
+
+```json
+{
+  "productId": "...",
+  "name": "...",
+  "quantity": 0,
+  "unitPrice": 0
+}
+```
+
+In this disposable training repository, `data/orders.json` may contain only course-generated synthetic orders. Never add real customer data.
+
+JSON-file writes are a single-process training solution; concurrent writes are not guaranteed safe. Document this limitation in `README.md` rather than adding a database or external service.
+
 | Piece | Initial requirement |
 | --- | --- |
 | Primary write endpoint | `POST /api/checkout` validates a cart and returns a stubbed success result with an order total |
