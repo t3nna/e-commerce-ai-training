@@ -1,0 +1,240 @@
+[
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "4201da86-f4ae-419e-8b44-b01497ab9a96",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:22:59.877Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "49b0a572-1a97-4f7d-a7a4-f042aeab20e0",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:03.817Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "882c0d2a-933c-4298-8b95-ab7a53348031",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:05.140Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "3e9b0c7f-ce79-40a4-8e18-2de0f546b525",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:05.655Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "94ac0e70-2ae9-4fa3-9552-c881707f4cda",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:06.112Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "e4b58044-5859-4953-a1f0-bb285f95759c",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:06.588Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "abf6b78b-c355-4085-a1d3-9a5248d6fdab",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:06.935Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "2dbabd57-9385-4b99-9fe9-5cec53d1cf85",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:07.065Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "884cd869-b602-4f2e-98bf-72406573934c",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:07.250Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 2,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 25,
+    "discount": 0,
+    "total": 25,
+    "id": "ac0f1299-73bb-4584-bf75-c20fbb548160",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:07.403Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-003",
+        "name": "Wool Beanie",
+        "quantity": 4,
+        "unitPrice": 22.75
+      }
+    ],
+    "subtotal": 91,
+    "discount": 0,
+    "total": 91,
+    "id": "414e5324-cd12-4da7-94aa-68da0fbe31ba",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:12.503Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-003",
+        "name": "Wool Beanie",
+        "quantity": 6,
+        "unitPrice": 22.75
+      }
+    ],
+    "subtotal": 136.5,
+    "discount": 0,
+    "total": 136.5,
+    "id": "b1bf3545-84c6-46fb-bbb8-a169c73a422d",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:23:16.773Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 1,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 12.5,
+    "discount": 0,
+    "total": 12.5,
+    "id": "ebfcd437-397f-4935-ac51-6b0ca9df443b",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:24:32.774Z"
+  },
+  {
+    "userId": "guest",
+    "items": [
+      {
+        "productId": "prod-001",
+        "name": "Enamel Mug",
+        "quantity": 4,
+        "unitPrice": 12.5
+      }
+    ],
+    "subtotal": 50,
+    "discount": 0,
+    "total": 50,
+    "id": "2de68db1-9a4b-4d61-86e8-259bbc7036c1",
+    "status": "completed",
+    "createdAt": "2026-08-31T16:24:53.310Z"
+  }
+]
